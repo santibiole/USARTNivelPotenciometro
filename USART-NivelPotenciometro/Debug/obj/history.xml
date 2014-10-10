@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F401VC -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -ID:\SANTIAGO\Dropbox\Diplomatura SE\Trabajos Practicos\TP USART - Nivel potenciometro\cmsis_boot -ID:\SANTIAGO\Dropbox\Diplomatura SE\Trabajos Practicos\TP USART - Nivel potenciometro\cmsis_lib -ID:\SANTIAGO\Dropbox\Diplomatura SE\Trabajos Practicos -ID:\SANTIAGO\Dropbox\Diplomatura SE\Trabajos Practicos\TP USART - Nivel potenciometro\cmsis_lib\include -ID:\SANTIAGO\Dropbox\Diplomatura SE\Trabajos Practicos\TP USART - Nivel potenciometro -ID:\SANTIAGO\Dropbox\Diplomatura SE\Trabajos Practicos\TP USART - Nivel potenciometro\cmsis -ID:\SANTIAGO\Dropbox\Diplomatura SE\Trabajos Practicos\TP USART - Nivel potenciometro\bsp">
+      <target file="syscalls.o" lastModified="148fbc338c4">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="148fac8ed44"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="148fbc337eb">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="148fac93366"/>
+      </target>
+      <target file="stm32f4xx_adc.o" lastModified="148fbc33738">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_adc.c" lastModified="148fac9a0ba"/>
+      </target>
+      <target file="stm32f4xx_tim.o" lastModified="148fbc33c4b">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="148fac97902"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="148fbc3386f">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="148fac902a9"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="148fbc3357a">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="148fac902a5"/>
+      </target>
+      <target file="stm32f4xx_usart.o" lastModified="148fbc33506">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="148fac9f85a"/>
+      </target>
+      <target file="stm32f4xx_syscfg.o" lastModified="148fbc3333a">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="148facad05b"/>
+      </target>
+      <target file="stm32f4xx_exti.o" lastModified="148fbc33aaf">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="148fac94737"/>
+      </target>
+      <target file="main.o" lastModified="148fc36162a">
+         <source file="..\..\..\main.c" lastModified="148fc361312"/>
+      </target>
+      <target file="stm32f4xx_spi.o" lastModified="148fbc33964">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="148fac95ad0"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="148fbc33665">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="148fac916bf"/>
+      </target>
+      <target file="misc.o" lastModified="148fbc33b3b">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="148facab152"/>
+      </target>
+      <target file="bsp.o" lastModified="148fc33b8e0">
+         <source file="..\..\..\bsp\bsp.c" lastModified="148fc33b45a"/>
+      </target>
+   </processor>
+</history>
