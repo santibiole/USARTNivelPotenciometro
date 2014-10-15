@@ -60,9 +60,9 @@ void bsp_delay_ms(uint16_t x) {
 	while (bsp_count_ms);
 }
 
-void uart_tx (char Data) {
-	if(USART_GetFlagStatus(USART3, USART_FLAG_TXE)){
-		USART_SendData(USART3,Data);
+void uart_tx (char data) {
+	if (USART_GetFlagStatus(USART3, USART_FLAG_TXE) == SET){
+			USART_SendData(USART3,data);
 	}
 }
 
@@ -278,7 +278,7 @@ void bsp_init_usart() {
 	GPIO_PinAFConfig(GPIOD, GPIO_PinSource9, GPIO_AF_USART3);
 
 	//Configuro UART
-	USART_InitStructure.USART_BaudRate = 115200;
+	USART_InitStructure.USART_BaudRate = 9600;
 	USART_InitStructure.USART_WordLength = USART_WordLength_8b;
 	USART_InitStructure.USART_StopBits = USART_StopBits_1;
 	USART_InitStructure.USART_Parity = USART_Parity_No;

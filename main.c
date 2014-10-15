@@ -1,12 +1,13 @@
 #include <stdint.h>
 #include "bsp/bsp.h"
+#include <stdio.h>
 
 /**
  * @brief Delay por software
  *
  * @param nCount Numero de ciclos del delay
  */
-void Delay(volatile uint32_t nCount);
+void delay(volatile uint32_t nCount);
 
 /**
  * @brief Se encarga de prender un led y apagarlo luego de un tiempo
@@ -21,21 +22,29 @@ void pulsoLed(uint8_t led, uint32_t tiempo);
  */
 int main(void) {
 	bsp_init();
-	uint16_t led;
-	int i;
+	uint16_t *led, *led_anterior;
+	char tx_buffer[22];
+	int i,j;
 
 	while (1) {
 
 		led = vumetro();
 
-		for (i=0;i<led;i++){
+		for (i=0;i<led;i++) {
 			led_on(i);
 		}
-		for (i=led;i<=7;i++){
+		for (i=led;i<=7;i++) {
 			led_off(i);
 		}
 
-		uart_tx('A');
+		if (led!=led_anterior) {
+			led_anterior=led;
+			sprintf(tx_buffer,"\nNivel Potenciometro: %d\n", (int)led);
+			for (j=0;j<30;j++){
+				delay(10000);
+				uart_tx(tx_buffer[j]);
+			}
+		}
 
 	}
 }
@@ -43,11 +52,11 @@ int main(void) {
 
 void pulsoLed(uint8_t led, uint32_t tiempo){
 	led_on(led);
-	Delay(tiempo);
+	delay(tiempo);
 	led_off(led);
 }
 
-void Delay(volatile uint32_t nCount) {
+void delay(volatile uint32_t nCount) {
 	while (nCount--) {
 	}
 }

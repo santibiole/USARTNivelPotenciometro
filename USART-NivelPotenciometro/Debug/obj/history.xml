@@ -22,14 +22,14 @@
       <target file="stm32f4xx_usart.o" lastModified="148fbc33506">
          <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="148fac9f85a"/>
       </target>
-      <target file="stm32f4xx_syscfg.o" lastModified="148fbc3333a">
-         <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="148facad05b"/>
-      </target>
       <target file="stm32f4xx_exti.o" lastModified="148fbc33aaf">
          <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="148fac94737"/>
       </target>
-      <target file="main.o" lastModified="148fc36162a">
-         <source file="..\..\..\main.c" lastModified="148fc361312"/>
+      <target file="stm32f4xx_syscfg.o" lastModified="148fbc3333a">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="148facad05b"/>
+      </target>
+      <target file="main.o" lastModified="14913f83e46">
+         <source file="..\..\..\main.c" lastModified="14913f83b56"/>
       </target>
       <target file="stm32f4xx_spi.o" lastModified="148fbc33964">
          <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="148fac95ad0"/>
@@ -37,11 +37,11 @@
       <target file="stm32f4xx_rcc.o" lastModified="148fbc33665">
          <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="148fac916bf"/>
       </target>
+      <target file="bsp.o" lastModified="14913ec27fa">
+         <source file="..\..\..\bsp\bsp.c" lastModified="14913ec22c6"/>
+      </target>
       <target file="misc.o" lastModified="148fbc33b3b">
          <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="148facab152"/>
-      </target>
-      <target file="bsp.o" lastModified="148fc33b8e0">
-         <source file="..\..\..\bsp\bsp.c" lastModified="148fc33b45a"/>
       </target>
    </processor>
 </history>

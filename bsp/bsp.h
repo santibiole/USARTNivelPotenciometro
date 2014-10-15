@@ -41,8 +41,10 @@ void bsp_delay_ms(uint16_t x);
  * @brief Enviar por uart
  *
  * @param Dato
+ *
+ * @retval Si fue enviado o recibido
  */
-void uart_tx (char Data);
+void uart_tx (char data);
 
 /**
  * @brief Recibir por uart
