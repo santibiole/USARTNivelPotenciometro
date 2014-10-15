@@ -28,6 +28,7 @@
 #define RANGEXLED 480
 #define RES	4095
 #define SFVUM	8.5
+#define PORCENTAJE 100
 
 /* Puertos de los leds disponibles */
 GPIO_TypeDef* leds_port[] = { GPIOD, GPIOD, GPIOD, GPIOD, GPIOD, GPIOD, GPIOD, GPIOD, GPIOD, GPIOD, GPIOD, GPIOD};
@@ -61,7 +62,7 @@ void bsp_delay_ms(uint16_t x) {
 }
 
 void uart_tx (char data) {
-	if (USART_GetFlagStatus(USART3, USART_FLAG_TXE) == SET){
+	while (USART_GetFlagStatus(USART3, USART_FLAG_TXE) == SET){
 			USART_SendData(USART3,data);
 	}
 }
@@ -76,6 +77,10 @@ uint8_t sw_getState(void) {
 
 uint16_t vumetro (void){
 	return (read_adc()*SFVUM/RES);
+}
+
+uint16_t nivel_pote (void){
+	return (read_adc()*PORCENTAJE/RES);
 }
 
 /**

@@ -66,9 +66,18 @@ uint8_t sw_getState();
 uint16_t read_adc();
 
 /**
- * @brief Valor Potenciometro a Leds
+ * @brief Valor potenciometro a leds
+ *
+ * @retval Cantidad de leds a prender
  */
 uint16_t vumetro();
+
+/**
+ * @brief Nivel potenciometro a porcentaje
+ *
+ * @retval Porcentaje
+ */
+uint16_t nivel_pote (void);
 
 /**
  * @brief Inicializacion de los servicios de BSP

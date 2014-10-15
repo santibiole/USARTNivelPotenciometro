@@ -22,8 +22,9 @@ void pulsoLed(uint8_t led, uint32_t tiempo);
  */
 int main(void) {
 	bsp_init();
-	uint16_t *led, *led_anterior;
-	char tx_buffer[22];
+	uint16_t led;
+	uint8_t *nivel, *nivel_anterior;
+	char tx_buffer[24];
 	int i,j;
 
 	while (1) {
@@ -37,9 +38,11 @@ int main(void) {
 			led_off(i);
 		}
 
-		if (led!=led_anterior) {
-			led_anterior=led;
-			sprintf(tx_buffer,"\nNivel Potenciometro: %d\n", (int)led);
+		nivel = nivel_pote();
+
+		if (nivel!=nivel_anterior) {
+			nivel_anterior=nivel;
+			sprintf(tx_buffer,"\nNivel Potenciometro: %d\n", (int)nivel);
 			for (j=0;j<30;j++){
 				delay(10000);
 				uart_tx(tx_buffer[j]);
