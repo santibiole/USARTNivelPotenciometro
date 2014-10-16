@@ -47,7 +47,6 @@ int main(void) {
 				if (tx_buffer[j]=='\0') {
 					break;
 				}
-				delay(10000);
 				uart_tx(tx_buffer[j]);
 			}
 		}
