@@ -22,11 +22,11 @@
 </editorArea>
 <editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="D:/SANTIAGO/Dropbox/Diplomatura SE/Trabajos Practicos/TP USART - Nivel potenciometro/main.c" title="main.c" tooltip="D:/SANTIAGO/Dropbox/Diplomatura SE/Trabajos Practicos/TP USART - Nivel potenciometro/main.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/USART-NivelPotenciometro/main.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="873" selectionTopPixel="341"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="969" selectionTopPixel="407"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="bsp.h" partName="bsp.h" path="D:/SANTIAGO/Dropbox/Diplomatura SE/Trabajos Practicos/TP USART - Nivel potenciometro/bsp/bsp.h" title="bsp.h" tooltip="D:/SANTIAGO/Dropbox/Diplomatura SE/Trabajos Practicos/TP USART - Nivel potenciometro/bsp/bsp.h" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/USART-NivelPotenciometro/bsp/bsp.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="682" selectionTopPixel="493"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1163" selectionTopPixel="881"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx_usart.h" partName="stm32f4xx_usart.h" path="D:/SANTIAGO/Dropbox/Diplomatura SE/Trabajos Practicos/TP USART - Nivel potenciometro/cmsis_lib/include/stm32f4xx_usart.h" title="stm32f4xx_usart.h" tooltip="D:/SANTIAGO/Dropbox/Diplomatura SE/Trabajos Practicos/TP USART - Nivel potenciometro/cmsis_lib/include/stm32f4xx_usart.h" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/USART-NivelPotenciometro/cmsis_lib/include/stm32f4xx_usart.h"/>
@@ -38,7 +38,7 @@
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="bsp.c" partName="bsp.c" path="D:/SANTIAGO/Dropbox/Diplomatura SE/Trabajos Practicos/TP USART - Nivel potenciometro/bsp/bsp.c" title="bsp.c" tooltip="D:/SANTIAGO/Dropbox/Diplomatura SE/Trabajos Practicos/TP USART - Nivel potenciometro/bsp/bsp.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/USART-NivelPotenciometro/bsp/bsp.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2128" selectionTopPixel="825"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="8712" selectionTopPixel="4001"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx_adc.c" partName="stm32f4xx_adc.c" path="D:/SANTIAGO/Dropbox/Diplomatura SE/Trabajos Practicos/TP USART - Nivel potenciometro/cmsis_lib/source/stm32f4xx_adc.c" title="stm32f4xx_adc.c" tooltip="D:/SANTIAGO/Dropbox/Diplomatura SE/Trabajos Practicos/TP USART - Nivel potenciometro/cmsis_lib/source/stm32f4xx_adc.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/USART-NivelPotenciometro/cmsis_lib/source/stm32f4xx_adc.c"/>
@@ -83,7 +83,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.cdt.ui.editor.CEditor" activePerspective="org.coocox.builder.perspective.CoBuilder">
+<perspectives activePart="org.coocox.builder.ui.views.ProjectView" activePerspective="org.coocox.builder.perspective.CoBuilder">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.coocox.builder.ui.PerspectiveCoBuilder" id="org.coocox.builder.perspective.CoBuilder" label="CooCox CoBuilder"/>
 <alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
@@ -221,51 +221,36 @@
 <view id="org.coocox.builder.ui.views.ProjectView"/>
 <fastViewBars/>
 <viewLayoutRec closeable="false" id="org.eclipse.debug.ui.DebugView"/>
-<layout>
-<mainWindow>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@11abce2">
-<folder activePageID="org.coocox.component.ui.ComponentView" appearance="2" expanded="2">
-<page content="org.coocox.component.ui.ComponentView" label="Components"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="org.eclipse.ui.internal.ViewStack@11abce2">&#x0A;<folder activePageID="org.coocox.component.ui.ComponentView" appearance="2" expanded="2">&#x0A;<page content="org.coocox.component.ui.ComponentView" label="Components"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1434" ratioRight="478" relationship="2" relative="org.eclipse.ui.internal.ViewStack@11abce2">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1434" ratioRight="478" relationship="2" relative="org.eclipse.ui.internal.ViewStack@11abce2">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@5c849d" ratio="0.6555024" ratioLeft="411" ratioRight="216" relationship="4" relative="org.eclipse.ui.internal.ViewStack@11abce2">
-<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">
-<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@5c849d" ratio="0.6555024" ratioLeft="411" ratioRight="216" relationship="4" relative="org.eclipse.ui.internal.ViewStack@11abce2">&#x0A;<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
 <page content="org.eclipse.debug.ui.BreakpointView" label="Breakpoints"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 <part id="2"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@6191f9" ratio="0.31808117" ratioLeft="431" ratioRight="924" relationship="2" relative="org.eclipse.ui.internal.ViewStack@5c849d">
-<folder activePageID="org.eclipse.debug.ui.ExpressionView" appearance="2" expanded="2">
-<page content="org.coocox.codebugger.trace.ui.traceview" label="Semihosting"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@6191f9" ratio="0.31808117" ratioLeft="431" ratioRight="924" relationship="2" relative="org.eclipse.ui.internal.ViewStack@5c849d">&#x0A;<folder activePageID="org.eclipse.debug.ui.ExpressionView" appearance="2" expanded="2">&#x0A;<page content="org.coocox.codebugger.trace.ui.traceview" label="Semihosting"/>
 <page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
 <page content="org.eclipse.debug.ui.ExpressionView" label="Expressions"/>
 <page content="org.eclipse.debug.ui.MemoryView" label="LabelNotFound"/>
 <page content="org.eclipse.cdt.debug.ui.memory.memorybrowser.MemoryBrowser" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 <part id="2"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@7f2c55" ratio="0.75" ratioLeft="1434" ratioRight="478" relationship="2" relative="org.eclipse.ui.internal.ViewStack@11abce2">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.cdt.dsf.debug.ui.disassembly.view" label="LabelNotFound"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@7f2c55" ratio="0.75" ratioLeft="1434" ratioRight="478" relationship="2" relative="org.eclipse.ui.internal.ViewStack@11abce2">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.cdt.dsf.debug.ui.disassembly.view" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
 <page content="org.eclipse.debug.ui.RegisterView" label="LabelNotFound"/>
 <page content="org.coocox.coassistant.view.CoAssistantView_debug" label="LabelNotFound"/>
@@ -273,11 +258,8 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.16826569" ratioLeft="228" ratioRight="1127" relationship="2" relative="org.eclipse.ui.internal.ViewStack@11abce2"/>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@1ad9a1f" ratio="0.5" ratioLeft="207" ratioRight="207" relationship="4" relative="org.eclipse.ui.internal.ViewStack@11abce2">
-<folder activePageID="org.coocox.builder.ui.views.ProjectView" appearance="2" expanded="2">
-<page content="org.coocox.builder.ui.views.ProjectView" label="Project"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1ad9a1f" ratio="0.5" ratioLeft="207" ratioRight="207" relationship="4" relative="org.eclipse.ui.internal.ViewStack@11abce2">&#x0A;<folder activePageID="org.coocox.builder.ui.views.ProjectView" appearance="2" expanded="2">&#x0A;<page content="org.coocox.builder.ui.views.ProjectView" label="Project"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
@@ -291,70 +273,10 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/USART-NivelPotenciometro/main.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/USART-NivelPotenciometro/cmsis_lib/source/stm32f4xx_gpio.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/USART-NivelPotenciometro/bsp/bsp.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/USART-NivelPotenciometro/bsp/bsp.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/USART-NivelPotenciometro/bsp/bsp.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/USART-NivelPotenciometro/bsp/bsp.c"/>
 </editors>
-<item historyLabel="main.c" index="0">
-<position/>
-</item>
-<item historyLabel="main.c" index="0">
-<position/>
-</item>
-<item historyLabel="main.c" index="0">
-<position/>
-</item>
-<item historyLabel="main.c" index="0">
-<position/>
-</item>
-<item historyLabel="main.c" index="0">
-<position/>
-</item>
-<item historyLabel="main.c" index="0">
-<position/>
-</item>
-<item historyLabel="main.c" index="0">
-<position/>
-</item>
-<item historyLabel="main.c" index="0">
-<position/>
-</item>
-<item historyLabel="main.c" index="0">
-<position/>
-</item>
-<item historyLabel="main.c" index="0">
-<position/>
-</item>
-<item historyLabel="main.c" index="0">
-<position/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="498" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="610" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="632" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="657" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="632" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="657" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="632" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="657" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="632" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="657" y="0"/>
-</item>
 <item historyLabel="main.c" index="0">
 <position info="not_deleted" x="632" y="0"/>
 </item>
@@ -439,8 +361,71 @@
 <item historyLabel="main.c" index="0">
 <position info="not_deleted" x="883" y="0"/>
 </item>
-<item active="true" historyLabel="main.c" index="0">
+<item historyLabel="main.c" index="0">
 <position info="not_deleted" x="873" y="0"/>
+</item>
+<item historyLabel="bsp.h" index="3">
+<position info="not_deleted" x="682" y="0"/>
+</item>
+<item historyLabel="bsp.c" index="4">
+<position info="not_deleted" x="2155" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="581" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="594" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="681" y="26"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="815" y="66"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="679" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="614" y="20"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="522" y="0"/>
+</item>
+<item historyLabel="bsp.c" index="4">
+<position info="not_deleted" x="2438" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="522" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="753" y="0"/>
+</item>
+<item historyLabel="bsp.c" index="4">
+<position info="not_deleted" x="1781" y="0"/>
+</item>
+<item historyLabel="bsp.h" index="3">
+<position info="not_deleted" x="1163" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="969" y="0"/>
+</item>
+<item historyLabel="bsp.c" index="4">
+<position info="not_deleted" x="2067" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="969" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position/>
+</item>
+<item historyLabel="main.c" index="0">
+<position/>
+</item>
+<item historyLabel="bsp.c" index="5">
+<position info="not_deleted" x="8712" y="0"/>
+</item>
+<item active="true" historyLabel="main.c" index="0">
+<position info="not_deleted" x="908" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -449,12 +434,6 @@
 <actionBarAdvisor/>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx_gpio.c" tooltip="USART-NivelPotenciometro/cmsis_lib/source/stm32f4xx_gpio.c">
-<persistable path="/USART-NivelPotenciometro/cmsis_lib/source/stm32f4xx_gpio.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx_adc.c" tooltip="USART-NivelPotenciometro/cmsis_lib/source/stm32f4xx_adc.c">
-<persistable path="/USART-NivelPotenciometro/cmsis_lib/source/stm32f4xx_adc.c"/>
-</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx.h" tooltip="TP4-Interrupciones-Timer-y-Boton/cmsis_boot/stm32f4xx.h">
 <persistable path="/TP4-Interrupciones-Timer-y-Boton/cmsis_boot/stm32f4xx.h"/>
 </file>
@@ -488,6 +467,15 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="core_cm4.h" tooltip="TP1-Blinky/cmsis/core_cm4.h">
 <persistable path="/TP1-Blinky/cmsis/core_cm4.h"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="TP1-Blinky.coproj" tooltip="D:\SANTIAGO\Universidad\Diplomatura SE\Clase 12\TP1-Blinky\TP1-Blinky.coproj">
+<persistable uri="file:/D:/SANTIAGO/Universidad/Diplomatura%20SE/Clase%2012/TP1-Blinky/TP1-Blinky.coproj"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="gpio.h" tooltip="C:\Users\TRABAJO\Documents\Inc\gpio.h">
+<persistable uri="file:/C:/Users/TRABAJO/Documents/Inc/gpio.h"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="gpio.c" tooltip="C:\Users\TRABAJO\Documents\Src\gpio.c">
+<persistable uri="file:/C:/Users/TRABAJO/Documents/Src/gpio.c"/>
 </file>
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="TP1-Blinky.coproj" tooltip="D:\SANTIAGO\Universidad\Diplomatura SE\Clase 12\TP1-Blinky\TP1-Blinky.coproj">
 <persistable uri="file:/D:/SANTIAGO/Universidad/Diplomatura%20SE/Clase%2012/TP1-Blinky/TP1-Blinky.coproj"/>

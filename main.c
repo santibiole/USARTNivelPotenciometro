@@ -24,7 +24,7 @@ int main(void) {
 	bsp_init();
 	uint16_t led;
 	uint8_t *nivel, *nivel_anterior;
-	char tx_buffer[24];
+	char tx_buffer[30];
 	int i,j;
 
 	while (1) {
@@ -42,8 +42,11 @@ int main(void) {
 
 		if (nivel!=nivel_anterior) {
 			nivel_anterior=nivel;
-			sprintf(tx_buffer,"\nNivel Potenciometro: %d\n", (int)nivel);
+			sprintf(tx_buffer,"\nNivel Potenciometro: %d", (int)nivel);
 			for (j=0;j<30;j++){
+				if (tx_buffer[j]=='\0') {
+					break;
+				}
 				delay(10000);
 				uart_tx(tx_buffer[j]);
 			}
